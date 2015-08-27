@@ -1,4 +1,4 @@
-package edu.cmu.lti.f15ex1.ex1_salvadom;
+
 
 import java.io.StringReader;
 import edu.stanford.nlp.ling.Word;
@@ -6,11 +6,10 @@ import edu.stanford.nlp.process.TokenizerFactory;
 import edu.stanford.nlp.process.PTBTokenizer.PTBTokenizerFactory;
 import edu.stanford.nlp.process.Tokenizer;
 /**
- * An example for Homework 0 of 11791 F13
+ * An example for Exercise 1 of 11791 F15
  *
- * @author Zi Yang <ziy@cs.cmu.edu>
 */
-public class DependencyExample {
+public class SimpleTokenizer {
   /**
    * Tokenize a sentence in the argument, and print out
    * the tokens to the console.
